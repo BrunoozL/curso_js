@@ -5,8 +5,20 @@
         <title>DOM</title>
     </head>
 
-    <body>
-        <h1 id="titulo">Bem vindo DOM</h1>
+    <body id="corpo">
+        <h1 id="titulo">Bem vindo ao DOM!</h1>
+        <h1 id="titulo2">Bem vindo ao HTML!</h1>
+
+        <input type="text" id="elemento"> &nbsp;
+        <button onclick="mudarCorTexto()">Mudar cor do Texto</button> &nbsp;
+        <button onclick="mudarCorFundo()">Mudar cor do Fundo</button> &nbsp;
+
+        <button onclick="adicionarComWrite()">Add com Write</button> &nbsp;
+        <button onclick="adicionarComInner()">Add com Inner</button> &nbsp;
+
+        <div id="texto">
+            <p></p>
+        </div>
 
         <script src="js/dom.js"></script>
     </body>
