@@ -13,7 +13,7 @@ function mudarCorTexto()
     var elementoDesejado = document.getElementById("elemento").value;
 
     // Busca o elemento que o usuário deseja alterar
-    var elemento = document.getElementById("elementoDesejado");
+     var elemento = document.getElementById(elementoDesejado);
     elemento.style.color = "#ff0000";
 }
 
@@ -21,7 +21,7 @@ function mudarCorFundo()
 {
     var elementoDesejado = document.getElementById("elemento").value;
     
-    var elemento = document.getElementById("elementoDesejado");
+    var elemento = document.getElementById(elementoDesejado);
     elemento.style.backgroundColor = "yellow";
 }
 
